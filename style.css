@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    min-height: 250px;
+    background-image: url(../image/bg.jpg);
+    background-color:#EFEFEF;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    border-top: 4px solid #f9004d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    position: relative;
+
+}
+.header h1{
+    font-size: 72px;
+}
+span{
+    color: #f9004d;
+}
+.header h4{margin-top: 50px;
+    font-size: 21px;
+}
+.about{
+    width: 100%;
+    min-height: 280px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.about h1{
+    font-size:52px ;
+    margin-bottom: 30px;
+}
+.about p{
+    font-size: 28px;
+
+}
+.about a{ color: black;
+    text-decoration: none;
+}
+.about a:hover{
+    border-bottom: 4px solid  #f9004d;
+     background-color: #00f9cf;
+     
+}
+.skills{
+    width: 100%;
+    min-height: 540px;
+    background-color: #f9004d;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+.skills h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.skills p{
+    font-size:28px ;
+    margin-bottom: 30px;
+}
+.skills ul li{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.contact{
+    width: 100%;
+    min-height: 240px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.contact p{
+    font-size:28px ;
+    margin-bottom: 30px;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover{
+    border-bottom: 4px solid  #f9004d;
+     background-color: #00f9cf;
+}
+.image2{
+    width: 100%;
+    min-height: 800px;
+    background-color: #f9fefd;
+}
+.image2 img{
+   
+    width: 400px;
+    height: 400px;
+   box-shadow: 2px 2px 2px 2px #101010;
+     
+    border-radius: 2%;
+    border: 1px solid #0e0d0d;
+    opacity: 1.5;
+    margin-top: 80px;
+    margin-left: 30%;
+
+}
+.image2 img:hover{
+    transform: scale(1.2);
+    
+}
